@@ -1,0 +1,1 @@
+A full-stack Music Library web application developed as part of my second-year Web Development module. The project allows users to add, view, edit and delete artists, albums and songs, using HTML, CSS and JavaScript for the frontend, with Node.js, Express and SQLite for the backend.
