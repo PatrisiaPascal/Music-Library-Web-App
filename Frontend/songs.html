@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Songs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="artists.html">Artists</a>
+    <a href="albums.html">Albums</a>
+    <a href="songs.html">Songs</a>
+  </nav>
+
+  <main>
+    <h1>Songs</h1>
+
+    <form id="songForm">
+      <input type="text" id="song_name" placeholder="Song Name" required>
+      <input type="number" id="song_year" placeholder="Release Year">
+      <input type="number" id="album_id" placeholder="Album ID">
+      <button type="submit">Add Song</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Year</th>
+          <th>Album ID</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="songTable"></tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>© 2026 Patrisia Alexandra Pascal | CS230</p>
+    <p>Last updated: April 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
